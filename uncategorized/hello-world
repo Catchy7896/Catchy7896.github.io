@@ -12,7 +12,7 @@
 
     <title>
         
-        Hello World - undefined
+        Hello World - Catchy&#39;s Blog
         
     </title>
 
@@ -61,7 +61,7 @@
 <div class="nav" id="nav">
     <div class="avatar-name">
         <div class="avatar ">
-            <img src="/" />
+            <img src="/img/avatar.jpg" />
         </div>
         <div class="name">
             <i>Catchy</i>
@@ -155,6 +155,11 @@
 </span>
     </div>
     <div class="post-content ">
+        <!--这一段是不蒜子的访问量统计代码-->
+
+        <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次 &nbsp;   </span>
+        <span id="busuanzi_container_site_uv">访客数<span id="busuanzi_value_site_uv"></span>人次</span>
+
         <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
 
@@ -178,6 +183,7 @@
         <div class="giscus"></div>
     </div>
 </div>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
 
     </div>
 </div>
@@ -193,6 +199,14 @@
         
 
         
+        <li>
+            <a target="_blank"  href="https://github.com/Catchy7896">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
 
         
 
@@ -205,7 +219,7 @@
         <span id="busuanzi_container_site_uv">
             <span id="busuanzi_value_site_uv"></span>UV
         </span>
-        Created By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>  Theme <a target="_blank" rel="noopener" href="https://github.com/aircloud/hexo-theme-aircloud">AirCloud</a></p>
+        Created By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></p>
 </footer>
 
 
