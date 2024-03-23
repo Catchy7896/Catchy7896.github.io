@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang=zh-CN>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:description" content="Catchy想好好学习">
+    <meta property="og:type" content="website">
+    <meta name="description" content="Catchy想好好学习">
+    <meta name="keyword"  content="">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+
+    <title>
+        
+        代码随想录读书笔记 - Catchy&#39;s Blog
+        
+    </title>
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/aircloud.css">
+
+    
+<link rel="stylesheet" href="/css/gitment.css">
+
+    <!--<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">-->
+    <link href="//at.alicdn.com/t/font_620856_28hi1hpxx24.css" rel="stylesheet" type="text/css">
+    <!-- ga & ba script hoook -->
+    <script></script>
+
+    
+
+
+
+
+
+
+
+
+
+<meta name="generator" content="Hexo 7.1.1"></head>
+
+<body>
+
+<div class="site-nav-toggle" id="site-nav-toggle">
+    <button>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+        <span class="btn-bar"></span>
+    </button>
+</div>
+
+<div class="index-about">
+    <i> 欢迎来到Catchy的乐园~~ </i>
+</div>
+
+<div class="index-container">
+    
+    <div class="index-left">
+        
+<div class="nav" id="nav">
+    <div class="avatar-name">
+        <div class="avatar radius">
+            <img src="/img/avatar.jpg" />
+        </div>
+        <div class="name">
+            <i>Catchy</i>
+        </div>
+    </div>
+    <div class="contents" id="nav-content">
+        <ul>
+            <li >
+                <a href="/">
+                    <i class="iconfont icon-shouye1"></i>
+                    <span>主页</span>
+                </a>
+            </li>
+            <li >
+                <a href="/tags">
+                    <i class="iconfont icon-biaoqian1"></i>
+                    <span>标签</span>
+                </a>
+            </li>
+            <li >
+                <a href="/archives">
+                    <i class="iconfont icon-guidang2"></i>
+                    <span>存档</span>
+                </a>
+            </li>
+            <li >
+                <a href="/collect/">
+                    <i class="iconfont icon-shoucang1"></i>
+                    <span>收藏</span>
+                </a>
+            </li>
+            <li >
+                <a href="/about/">
+                    <i class="iconfont icon-guanyu2"></i>
+                    <span>关于</span>
+                </a>
+            </li>
+            
+            <li>
+                <a id="search">
+                    <i class="iconfont icon-sousuo1"></i>
+                    <span>搜索</span>
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+    
+        <div id="toc" class="toc-article">
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-%E5%89%8D%E8%A8%80"><span class="toc-text">1 前言</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#2-%E6%95%B0%E7%BB%84"><span class="toc-text">2 数组</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#2-1-%E4%B8%8D%E5%8F%98%E9%87%8F"><span class="toc-text">2.1 不变量</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-2-%E5%BF%AB%E6%85%A2%E6%8C%87%E9%92%88"><span class="toc-text">2.2 快慢指针</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#2-3-%E6%BB%91%E5%8A%A8%E7%AA%97%E5%8F%A3"><span class="toc-text">2.3 滑动窗口</span></a></li></ol></li></ol>
+</div>
+    
+</div>
+
+
+<div class="search-field" id="search-field">
+    <div class="search-bg" id="search-bg"></div>
+    <div class="search-container">
+        <div class="search-input">
+            <span id="esc-search"> <i class="icon-fanhui iconfont"></i></span>
+            <input id="search-input"/>
+            <span id="begin-search">搜索</span>
+        </div>
+        <div class="search-result-container" id="search-result-container">
+
+        </div>
+    </div>
+</div>
+
+        <div class="index-about-mobile">
+            <i> 欢迎来到Catchy的乐园~~ </i>
+        </div>
+    </div>
+    
+    <div class="index-middle">
+        <!-- Main Content -->
+        
+
+
+<div class="post-container">
+    <div class="post-title">
+        代码随想录读书笔记
+    </div>
+
+    <div class="post-meta">
+        <span class="attr">发布于：<span>2024-03-23 18:24:57</span></span>
+        
+        <span class="attr">标签：/
+        
+        <a class="tag" href="/tags/#算法" title="算法">算法</a>
+        <span>/</span>
+        
+        
+        </span>
+        <span class="attr">访问：<span id="busuanzi_value_page_pv"></span>
+</span>
+</span>
+    </div>
+    <div class="post-content no-indent">
+        <figure class="highlight"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">🍒 欢迎光临Catchy的博客~</span><br><span class="line">🍒 本文主要梳理在学习代码随想录的知识点记录和一些思考</span><br><span class="line">🍒 我是Catchy，一个正在努力学前端和为写论文掏心掏肺的enfp小兔子🐰</span><br></pre></td></tr></table></figure>
+<h1 id="1-前言"><a href="#1-前言" class="headerlink" title="1 前言"></a>1 前言</h1><p>​&ensp;&ensp;&ensp;算法是程序员的基本功，考验一个人的代码能力和思维能力。当然计算机网络、操作系统、数据库这种基础知识也挺重要的，可以看自己的工作也学习一下。</p>
+<p>​	&ensp;&ensp;&ensp;当然算法第一步一定要学编程语言，不要操之过急。另外，代码规范很重要，主要是<strong>命名规范</strong>和<strong>代码留白</strong>这两个。</p>
+<ul>
+<li><p>命名规范：大驼峰、小驼峰</p>
+<ul>
+<li>大驼峰:MyClass</li>
+<li>小驼峰:myClass</li>
+</ul>
+</li>
+<li><p>代码留白：</p>
+<ul>
+<li><p>分隔符逗号，分号：前不留后留</p>
+</li>
+<li><p>for、if、while:后面都要留空</p>
+</li>
+<li><p>操作符：左右都留空</p>
+</li>
+<li><p>第一个花括号和while要在一行且花括号前面也要留空</p>
+<p>一个简单的示例：</p>
+<figure class="highlight brainfuck"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">for (i = i</span> <span class="literal">+</span> <span class="comment">1; i</span> &gt; <span class="comment">n; i</span><span class="literal">++</span><span class="comment">) &#123;</span></span><br><span class="line"></span><br><span class="line"><span class="comment">&#125;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure></li>
+</ul>
+</li>
+</ul>
+<p>​	&ensp;&ensp;&ensp;算法的性能：时间复杂度和空间复杂度，每个遇到的代码题目都应该考虑这两个度量。</p>
+<h1 id="2-数组"><a href="#2-数组" class="headerlink" title="2 数组"></a>2 数组</h1><p>​	&ensp;&ensp;&ensp;数组这一章节我学到了三个算法思想：不变量、快慢指针、滑动窗口。</p>
+<h2 id="2-1-不变量"><a href="#2-1-不变量" class="headerlink" title="2.1 不变量"></a>2.1 不变量</h2><p>​	&ensp;&ensp;&ensp;二分查找法里面的区间问题、就是这种涉及边界的问题，都是和区间不变量相关系的。如果控制好不变量，后面就可以根据不变量来写下面的边界判断等问题。</p>
+<p>​	&ensp;&ensp;&ensp;在螺旋矩阵的时候也讲过这个概念，也是for循环里面的i,j边界怎么判断，只要决定好区间，就可以根据区间定义来。</p>
+<p>​	&ensp;&ensp;&ensp;以二分查找给出示例:到底是left &lt; right 还是 left &lt;&#x3D; right？曾经我也深受这个问题困扰，大概是死记硬背比较多，但是其实如果我们把这个问题转换为我们的区间定义问题就会好办很多，这里给出left &lt;&#x3D; right 的思路。</p>
+<p>​	&ensp;&ensp;&ensp;我决定区间[left，right]那么left &lt;&#x3D; right就在我的区间范围内，right &#x3D; mid - 1 。右边已经取过了，所以mid需要减1.我决定区间[left，right）那么left &lt; right就在我的区间范围内，right &#x3D; mid 因为右边是打开的所以右边取不到。</p>
+<h2 id="2-2-快慢指针"><a href="#2-2-快慢指针" class="headerlink" title="2.2 快慢指针"></a>2.2 快慢指针</h2><p>​	&ensp;&ensp;&ensp;快慢指针可以解决移除元素的问题，就是设置两个指针，一个在前一个在后，从而解决移除元素中，在原地更改数据的问题。</p>
+<h2 id="2-3-滑动窗口"><a href="#2-3-滑动窗口" class="headerlink" title="2.3 滑动窗口"></a>2.3 滑动窗口</h2><p>​	&ensp;&ensp;&ensp;我感觉这个和快慢指针有点像，也是一前一后，窗口就是分为起始位置、结束位置、以及窗口的长度，窗口是连续的。这里就是用来解决在数组中返回符合长度大于s的连续数组的最小长度，感觉很绕！其实就是我们最后选中的窗口里面符合两个条件：和大于s,长度最小。</p>
+<p>​	&ensp;&ensp;&ensp;这个算法难点就在于怎么控制窗口长度和起始位置，我们可以先扩大窗口，当满足我们条件大于s时，控制起始位置从而缩短窗口看一下有没有更好的结果，这里有个代码是关键就是 sum &#x3D;- nums[i++]。它的意思就是将窗口从前往后缩，这样如果我们能找到更好的结果，以后我们的窗口大小又变小了，好神奇，感觉窗口很动态了。</p>
+<p><strong>鸣谢：</strong><br>    《代码随想录》</p>
+<hr>
+<p>感谢你耐心阅读这篇文章，希望能为你带来一些帮助和启发。如果你喜欢这篇文章，欢迎分享给更多的朋友。</p>
+
+        
+        <br />
+        <div id="comment-container">
+        </div>
+        <div id="disqus_thread"></div>
+        <div id="lv-container"></div>
+        <div class="giscus"></div>
+    </div>
+</div>
+<script async src="//dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+    </div>
+</div>
+
+
+<footer class="footer">
+    <ul class="list-inline text-center">
+        
+        
+
+        
+
+        
+
+        
+        <li>
+            <a target="_blank"  href="https://github.com/Catchy7896">
+                            <span class="fa-stack fa-lg">
+                                <i class="iconfont icon-github"></i>
+                            </span>
+            </a>
+        </li>
+        
+
+        
+
+    </ul>
+    
+    <p>
+        <span id="busuanzi_container_site_pv">
+            <span id="busuanzi_value_site_pv"></span>PV
+        </span>
+        <span id="busuanzi_container_site_uv">
+            <span id="busuanzi_value_site_uv"></span>UV
+        </span>
+        Created By <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a></p>
+</footer>
+
+
+
+
+</body>
+
+<script>
+    // We expose some of the variables needed by the front end
+    window.hexo_search_path = "search.json"
+    window.hexo_root = "/"
+    window.isPost = true
+</script>
+<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="/js/index.js"></script>
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+
+
+
+
+
+</html>
